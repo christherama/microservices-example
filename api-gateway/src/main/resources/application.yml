@@ -1,3 +1,7 @@
+server:
+  port: ${PORT:9051}
+
+---
 eureka:
   client:
     serviceUrl:
